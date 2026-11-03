@@ -126,12 +126,12 @@
       },
       "versions": [
         {
-          "version": "0.1.5",
-          "publishTimestamp": 1793669575,
+          "version": "0.1.6",
+          "publishTimestamp": 1793680378,
           "source": {
             "type": "git",
             "url": "https://github.com/skillre/dsh-plugin-skills-manager",
-            "commit": "f46d51207ab95f19b69ac87824c6ffa640a2b07f"
+            "commit": "140d85d7c58e33af549f86020bd75ec1cb9250b6"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5 <0.3.0"
