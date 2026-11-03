@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Skillre DSH Plugins",
+    "zh": "Skillre DSH 插件"
+  },
+  "description": {
+    "en": "Independent DSH plugin bundles for host tools, client UI and data workflows, maintained by skillre.",
+    "zh": "由 skillre 独立维护的 DSH 插件包：Host 工具、Client 界面与数据工作流。"
+  },
+  "metadata": {
+    "categories": {
+      "productivity": {
+        "title": {
+          "en": "Productivity",
+          "zh": "效率"
+        }
+      },
+      "data": {
+        "title": {
+          "en": "Data & Documents",
+          "zh": "数据与文档"
+        }
+      },
+      "integration": {
+        "title": {
+          "en": "Integrations",
+          "zh": "集成"
+        }
+      },
+      "ui": {
+        "title": {
+          "en": "UI & Visualization",
+          "zh": "界面与可视化"
+        }
+      }
+    },
+    "labels": {
+      "host": {
+        "title": {
+          "en": "Host",
+          "zh": "Host"
+        }
+      },
+      "client": {
+        "title": {
+          "en": "Client",
+          "zh": "Client"
+        }
+      },
+      "composition": {
+        "title": {
+          "en": "Composition",
+          "zh": "组合"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@skillre/dsh-plugin-tavily-firecrawl",
+      "title": "Tavily Search + Firecrawl Fetch",
+      "description": "Tavily search and Firecrawl fetch providers for the DeepSeek Harness web seam, with a rotating multi-key credential pool",
+      "icon": "https://skillre.github.io/dsh-plugin-market/icons/tavily-firecrawl.svg",
+      "author": "skillre",
+      "homepage": "https://github.com/skillre/dsh-plugin-tavily-firecrawl#readme",
+      "repository": {
+        "url": "https://github.com/skillre/dsh-plugin-tavily-firecrawl"
+      },
+      "metadata": {
+        "category": "integration",
+        "keywords": [
+          "deepseek-harness",
+          "dsh-plugin",
+          "cordis"
+        ],
+        "labels": [
+          "host"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1791452857,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/skillre/dsh-plugin-tavily-firecrawl",
+            "commit": "14141fc2b21f9635a3f4e973617e2e9f54eb3c7b"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.2 <0.2.0 || >=0.2.0-rc.2 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@skillre/dsh-plugin-skills-manager",
+      "title": {
+        "en": "Skills Manager",
+        "zh": "技能管理"
+      },
+      "description": {
+        "en": "Discover, install, check and update DSH skills, with safe removal and restorable backups.",
+        "zh": "检索、安装、检查和更新 DSH 技能，支持安全删除与备份恢复。"
+      },
+      "icon": "https://skillre.github.io/dsh-plugin-market/icons/skills-manager.svg",
+      "author": "skillre",
+      "homepage": "https://github.com/skillre/dsh-plugin-skills-manager#readme",
+      "repository": {
+        "url": "https://github.com/skillre/dsh-plugin-skills-manager"
+      },
+      "metadata": {
+        "category": "productivity",
+        "keywords": [
+          "deepseek-harness",
+          "dsh-plugin",
+          "cordis"
+        ],
+        "labels": [
+          "host",
+          "client"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1793669575,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/skillre/dsh-plugin-skills-manager",
+            "commit": "f46d51207ab95f19b69ac87824c6ffa640a2b07f"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
