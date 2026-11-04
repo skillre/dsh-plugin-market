@@ -138,6 +138,53 @@
           }
         }
       ]
+    },
+    {
+      "name": "@skillre/dsh-plugin-sticky-wall",
+      "title": {
+        "en": "Sticky Wall",
+        "zh": "便签墙"
+      },
+      "description": {
+        "en": "A sticky-note wall in the DSH sidebar: capture passing ideas and temporary work, pin what matters, archive the rest.",
+        "zh": "DSH 侧栏里的便签墙：随手记录一闪而过的灵感和临时工作，重要的置顶，过期的归档。"
+      },
+      "icon": "https://skillre.github.io/dsh-plugin-market/icons/sticky-wall.svg",
+      "author": "skillre",
+      "homepage": "https://github.com/skillre/dsh-plugin-sticky-wall#readme",
+      "repository": {
+        "url": "https://github.com/skillre/dsh-plugin-sticky-wall"
+      },
+      "metadata": {
+        "category": "productivity",
+        "keywords": [
+          "deepseek-harness",
+          "dsh-plugin",
+          "cordis",
+          "sticky-notes",
+          "notes",
+          "便签"
+        ],
+        "labels": [
+          "host",
+          "client"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793782041,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/skillre/dsh-plugin-sticky-wall",
+            "commit": "ab5cb5babaa18f73d5ad3aa8d555d3a9b321385c"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        }
+      ]
     }
   ]
 }
