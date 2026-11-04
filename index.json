@@ -174,11 +174,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793783739,
+          "publishTimestamp": 1793786507,
           "source": {
             "type": "git",
             "url": "https://github.com/skillre/dsh-plugin-sticky-wall",
-            "commit": "c294014b6130e385c18d37cb93f89f458b91c5fc"
+            "commit": "eb700baa13279c1d987e50037b96aff646dc7a5f"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5 <0.3.0"
