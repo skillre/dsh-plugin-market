@@ -185,6 +185,55 @@
           }
         }
       ]
+    },
+    {
+      "name": "@skillre/dsh-plugin-poc-console",
+      "title": {
+        "en": "POC Console",
+        "zh": "POC 运营台"
+      },
+      "description": {
+        "en": "A board over the POC ledger in a private GitHub repository: four-dimension result, stage rail, the eight gap rules and a pending list — plus YAML import with Draft PR submission, self-contained forms for colleagues, a risk board and a global timeline.",
+        "zh": "从 GitHub 私有仓库拉取 POC 台账的看板：四维结果、阶段轨道、8 条缺口规则与待处理清单；支持导入 YAML 并提交 Draft PR、导出给组员填写的自包含表单、风险看板与全局时间线。"
+      },
+      "icon": "https://skillre.github.io/dsh-plugin-market/icons/poc-console.svg",
+      "author": "skillre",
+      "homepage": "https://github.com/skillre/dsh-plugin-poc-console#readme",
+      "repository": {
+        "url": "https://github.com/skillre/dsh-plugin-poc-console"
+      },
+      "metadata": {
+        "category": "data",
+        "keywords": [
+          "deepseek-harness",
+          "dsh-plugin",
+          "cordis",
+          "poc",
+          "dashboard",
+          "poc-console",
+          "运营台",
+          "看板"
+        ],
+        "labels": [
+          "host",
+          "client"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793881918,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/skillre/dsh-plugin-poc-console",
+            "commit": "4fcd2b20993bb51417564f87a03f89b1c11bef36"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
     }
   ]
 }
