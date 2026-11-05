@@ -223,11 +223,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793881918,
+          "publishTimestamp": 1793882923,
           "source": {
             "type": "git",
             "url": "https://github.com/skillre/dsh-plugin-poc-console",
-            "commit": "4fcd2b20993bb51417564f87a03f89b1c11bef36"
+            "commit": "f7122af261a6e835611d4dc9151cfb7a3ad4bb7f"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
