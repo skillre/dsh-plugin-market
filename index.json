@@ -187,20 +187,20 @@
       ]
     },
     {
-      "name": "@skillre/dsh-plugin-poc-console",
+      "name": "@skillre/dsh-plugin-work-dashboard",
       "title": {
-        "en": "POC Console",
-        "zh": "POC 运营台"
+        "en": "Work Dashboard",
+        "zh": "工作看板"
       },
       "description": {
-        "en": "A board over the POC ledger in a private GitHub repository: four-dimension result, stage rail, the eight gap rules and a pending list — plus YAML import with Draft PR submission, self-contained forms for colleagues, a risk board and a global timeline.",
-        "zh": "从 GitHub 私有仓库拉取 POC 台账的看板：四维结果、阶段轨道、8 条缺口规则与待处理清单；支持导入 YAML 并提交 Draft PR、导出给组员填写的自包含表单、风险看板与全局时间线。"
+        "en": "A multi-module operations dashboard. POC Operations is the first module: four-dimension result, stage rail, the eight gap rules, a risk board and a global timeline — plus self-contained forms for colleagues.",
+        "zh": "多模块运营看板：POC 运营为首个模块（四维结果、阶段轨道、8 条缺口规则、风险看板、全局时间线），并可导出给组员填写的自包含表单。"
       },
-      "icon": "https://skillre.github.io/dsh-plugin-market/icons/poc-console.svg",
+      "icon": "https://skillre.github.io/dsh-plugin-market/icons/work-dashboard.svg",
       "author": "skillre",
-      "homepage": "https://github.com/skillre/dsh-plugin-poc-console#readme",
+      "homepage": "https://github.com/skillre/dsh-plugin-work-dashboard#readme",
       "repository": {
-        "url": "https://github.com/skillre/dsh-plugin-poc-console"
+        "url": "https://github.com/skillre/dsh-plugin-work-dashboard"
       },
       "metadata": {
         "category": "data",
@@ -208,11 +208,11 @@
           "deepseek-harness",
           "dsh-plugin",
           "cordis",
-          "poc",
           "dashboard",
-          "poc-console",
-          "运营台",
-          "看板"
+          "work-dashboard",
+          "poc",
+          "工作看板",
+          "运营看板"
         ],
         "labels": [
           "host",
@@ -223,11 +223,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793884389,
+          "publishTimestamp": 1793887339,
           "source": {
             "type": "git",
-            "url": "https://github.com/skillre/dsh-plugin-poc-console",
-            "commit": "beeeb961477494a03a025c5607daab397eda8d20"
+            "url": "https://github.com/skillre/dsh-plugin-work-dashboard",
+            "commit": "b8f40b46593721daedc1231e28c4f66fa15a234d"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
