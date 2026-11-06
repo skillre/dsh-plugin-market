@@ -193,8 +193,8 @@
         "zh": "工作看板"
       },
       "description": {
-        "en": "A multi-module operations dashboard. POC Operations is the first module: four-dimension result, stage rail, the eight gap rules, a risk board and a global timeline — plus self-contained forms for colleagues.",
-        "zh": "多模块运营看板：POC 运营为首个模块（四维结果、阶段轨道、8 条缺口规则、风险看板、全局时间线），并可导出给组员填写的自包含表单。"
+        "en": "A multi-module operations dashboard. POC Operations is the first module: progress-stream timeline, four-dimension result, stage rail, the twelve gap rules, a risk board and a global timeline, on the v3 data model.",
+        "zh": "多模块运营看板：POC 运营为首个模块（进展流时间线、四维结果、阶段轨道、12 条缺口规则、风险看板、全局时间线），数据模型为 v3。"
       },
       "icon": "https://skillre.github.io/dsh-plugin-market/icons/work-dashboard.svg",
       "author": "skillre",
@@ -223,11 +223,11 @@
       "versions": [
         {
           "version": "0.2.0",
-          "publishTimestamp": 1793951824,
+          "publishTimestamp": 1793952108,
           "source": {
             "type": "git",
             "url": "https://github.com/skillre/dsh-plugin-work-dashboard",
-            "commit": "0a56ee36a28fa8ba2d6347b14e28838e30d7e503"
+            "commit": "90d0d5b430a6cf49bd9a5a0be0e3a9dd379efb44"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
