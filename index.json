@@ -193,8 +193,8 @@
         "zh": "工作看板"
       },
       "description": {
-        "en": "A multi-module operations dashboard. POC Operations is the first module: a portfolio band, cards/board/table readings of the project list, a progress-stream detail page, the twelve gap rules, a risk board and a global timeline, on the v3 data model.",
-        "zh": "多模块运营看板：POC 运营为首个模块（组合面板、卡片/看板/表格三种读法、进展流详情、12 条缺口规则、风险看板、全局时间线），数据模型为 v3。"
+        "en": "An operations board in the sidebar: portfolio charts, three project views, progress-stream details and 12 gap rules.",
+        "zh": "侧栏里的运营看板：组合面板看钱和风险分布，卡片/看板/表格三种读法，进展流详情与 12 条缺口规则。"
       },
       "icon": "https://skillre.github.io/dsh-plugin-market/icons/work-dashboard.svg",
       "author": "skillre",
@@ -222,12 +222,12 @@
       },
       "versions": [
         {
-          "version": "0.3.0",
-          "publishTimestamp": 1793967561,
+          "version": "0.4.0",
+          "publishTimestamp": 1793970031,
           "source": {
             "type": "git",
             "url": "https://github.com/skillre/dsh-plugin-work-dashboard",
-            "commit": "cad96465d529c87ae775a6e83f834cd3b252d9ed"
+            "commit": "6e28bb0fbbd5f4e3c801b71e95fad8f459c3481d"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
