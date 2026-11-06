@@ -223,11 +223,11 @@
       "versions": [
         {
           "version": "0.3.0",
-          "publishTimestamp": 1793960893,
+          "publishTimestamp": 1793961780,
           "source": {
             "type": "git",
             "url": "https://github.com/skillre/dsh-plugin-work-dashboard",
-            "commit": "164764959d7d6283ef6b1481bd9dd466bb87421f"
+            "commit": "d8d5a26d6c57eb74d36bf841d7828d17a47fe755"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
