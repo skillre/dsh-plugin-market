@@ -174,11 +174,11 @@
       "versions": [
         {
           "version": "0.2.0",
-          "publishTimestamp": 1793975046,
+          "publishTimestamp": 1793976762,
           "source": {
             "type": "git",
             "url": "https://github.com/skillre/dsh-plugin-sticky-wall",
-            "commit": "735d5274d1281a8d1cd04ff03624d03976511052"
+            "commit": "8446f8755210f8660e92a07a554bea03368995b5"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
@@ -193,8 +193,8 @@
         "zh": "工作看板"
       },
       "description": {
-        "en": "An operations board in the sidebar: portfolio charts, three project views, progress-stream details and 12 gap rules.",
-        "zh": "侧栏里的运营看板：组合面板看钱和风险分布，卡片/看板/表格三种读法，进展流详情与 12 条缺口规则。"
+        "en": "An operations board plus three bundled POC skills: read the ledger, export a form, submit colleague data as a Draft PR.",
+        "zh": "侧栏运营看板 + 三个随包安装的 POC 技能：读台账、导出收集表单、把组员数据提交成 Draft PR。"
       },
       "icon": "https://skillre.github.io/dsh-plugin-market/icons/work-dashboard.svg",
       "author": "skillre",
