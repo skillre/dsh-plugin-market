@@ -146,8 +146,8 @@
         "zh": "便签墙"
       },
       "description": {
-        "en": "A sticky-note wall in the DSH sidebar: capture passing ideas and temporary work, pin what matters, archive the rest.",
-        "zh": "DSH 侧栏里的便签墙：随手记录一闪而过的灵感和临时工作，重要的置顶，过期的归档。"
+        "en": "A free-canvas note board in the DSH sidebar: drag cards into place, tidy them, and write Markdown.",
+        "zh": "DSH 侧栏便签墙：随手记灵感与临时工作，拖动摆放、自动整理，正文支持 Markdown。"
       },
       "icon": "https://skillre.github.io/dsh-plugin-market/icons/sticky-wall.svg",
       "author": "skillre",
@@ -173,15 +173,15 @@
       },
       "versions": [
         {
-          "version": "0.1.2",
-          "publishTimestamp": 1793871307,
+          "version": "0.2.0",
+          "publishTimestamp": 1793975046,
           "source": {
             "type": "git",
             "url": "https://github.com/skillre/dsh-plugin-sticky-wall",
-            "commit": "debb0fee1d9db9c131b43022d40d5fbf015dc543"
+            "commit": "735d5274d1281a8d1cd04ff03624d03976511052"
           },
           "engines": {
-            "dsh": ">=0.2.1-rc.5 <0.3.0"
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
           }
         }
       ]
