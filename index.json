@@ -173,12 +173,12 @@
       },
       "versions": [
         {
-          "version": "0.2.0",
-          "publishTimestamp": 1793979596,
+          "version": "0.2.1",
+          "publishTimestamp": 1794014790,
           "source": {
             "type": "git",
             "url": "https://github.com/skillre/dsh-plugin-sticky-wall",
-            "commit": "0078fd8d7460636057180c1ad89961f6a2e38034"
+            "commit": "1ef4982032ac05899e5f3eb825adaf94eb61435b"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
@@ -223,11 +223,11 @@
       "versions": [
         {
           "version": "0.5.0",
-          "publishTimestamp": 1793979052,
+          "publishTimestamp": 1793979650,
           "source": {
             "type": "git",
             "url": "https://github.com/skillre/dsh-plugin-work-dashboard",
-            "commit": "6ca8a0f39ea7e7a1ec764abcde0a8d57c67a14a3"
+            "commit": "5dc4334d81739b4afaa159de9a533c18b6d94803"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
