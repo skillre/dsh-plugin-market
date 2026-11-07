@@ -59,87 +59,6 @@
   },
   "plugins": [
     {
-      "name": "@skillre/dsh-plugin-tavily-firecrawl",
-      "title": "Tavily Search + Firecrawl Fetch",
-      "description": "Tavily search and Firecrawl fetch providers for the DeepSeek Harness web seam, with a rotating multi-key credential pool",
-      "icon": "https://skillre.github.io/dsh-plugin-market/icons/tavily-firecrawl.svg",
-      "author": "skillre",
-      "homepage": "https://github.com/skillre/dsh-plugin-tavily-firecrawl#readme",
-      "repository": {
-        "url": "https://github.com/skillre/dsh-plugin-tavily-firecrawl"
-      },
-      "metadata": {
-        "category": "integration",
-        "keywords": [
-          "deepseek-harness",
-          "dsh-plugin",
-          "cordis"
-        ],
-        "labels": [
-          "host"
-        ],
-        "sortKeys": {}
-      },
-      "versions": [
-        {
-          "version": "0.1.0",
-          "publishTimestamp": 1791452857,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/skillre/dsh-plugin-tavily-firecrawl",
-            "commit": "14141fc2b21f9635a3f4e973617e2e9f54eb3c7b"
-          },
-          "engines": {
-            "dsh": ">=0.1.7-rc.2 <0.2.0 || >=0.2.0-rc.2 <0.3.0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "@skillre/dsh-plugin-skills-manager",
-      "title": {
-        "en": "Skills Manager",
-        "zh": "技能管理"
-      },
-      "description": {
-        "en": "Discover, install, check and update DSH skills, with safe removal and restorable backups.",
-        "zh": "检索、安装、检查和更新 DSH 技能，支持安全删除与备份恢复。"
-      },
-      "icon": "https://skillre.github.io/dsh-plugin-market/icons/skills-manager.svg",
-      "author": "skillre",
-      "homepage": "https://github.com/skillre/dsh-plugin-skills-manager#readme",
-      "repository": {
-        "url": "https://github.com/skillre/dsh-plugin-skills-manager"
-      },
-      "metadata": {
-        "category": "productivity",
-        "keywords": [
-          "deepseek-harness",
-          "dsh-plugin",
-          "cordis"
-        ],
-        "labels": [
-          "host",
-          "client"
-        ],
-        "sortKeys": {}
-      },
-      "versions": [
-        {
-          "version": "0.2.1",
-          "publishTimestamp": 1793957073,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/skillre/dsh-plugin-skills-manager",
-            "commit": "f403e986715f2a3d3de09bd95e77e9afa3cca0a6"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        }
-      ]
-    },
-    {
       "name": "@skillre/dsh-plugin-sticky-wall",
       "title": {
         "en": "Sticky Wall",
@@ -174,60 +93,9 @@
       "versions": [
         {
           "version": "0.2.1",
-          "publishTimestamp": 1794015304,
+          "publishTimestamp": 1794023003,
           "source": {
-            "type": "git",
-            "url": "https://github.com/skillre/dsh-plugin-sticky-wall",
-            "commit": "80cdeadcc5b6f02c70f070a46ce3d7f972657a1f"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "@skillre/dsh-plugin-work-dashboard",
-      "title": {
-        "en": "Work Dashboard",
-        "zh": "工作看板"
-      },
-      "description": {
-        "en": "An operations board plus three bundled POC skills: read the ledger, export a form, submit colleague data as a Draft PR.",
-        "zh": "侧栏运营看板 + 三个随包安装的 POC 技能：读台账、导出收集表单、把组员数据提交成 Draft PR。"
-      },
-      "icon": "https://skillre.github.io/dsh-plugin-market/icons/work-dashboard.svg",
-      "author": "skillre",
-      "homepage": "https://github.com/skillre/dsh-plugin-work-dashboard#readme",
-      "repository": {
-        "url": "https://github.com/skillre/dsh-plugin-work-dashboard"
-      },
-      "metadata": {
-        "category": "data",
-        "keywords": [
-          "deepseek-harness",
-          "dsh-plugin",
-          "cordis",
-          "dashboard",
-          "work-dashboard",
-          "poc",
-          "工作看板",
-          "运营看板"
-        ],
-        "labels": [
-          "host",
-          "client"
-        ],
-        "sortKeys": {}
-      },
-      "versions": [
-        {
-          "version": "0.5.0",
-          "publishTimestamp": 1793979650,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/skillre/dsh-plugin-work-dashboard",
-            "commit": "5dc4334d81739b4afaa159de9a533c18b6d94803"
+            "type": "npm"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
