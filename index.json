@@ -59,6 +59,47 @@
   },
   "plugins": [
     {
+      "name": "@skillre/dsh-plugin-tavily-firecrawl",
+      "title": {
+        "en": "Tavily Search + Firecrawl Fetch",
+        "zh": "Tavily 搜索 + Firecrawl 抓取"
+      },
+      "description": {
+        "en": "Swaps DSH web search and page fetch onto Tavily and Firecrawl, with a multi-key pool that rotates past rate limits.",
+        "zh": "把 DSH 的联网搜索与网页抓取换成 Tavily 和 Firecrawl，多密钥池自动轮询，绕过单账号限流。"
+      },
+      "icon": "https://skillre.github.io/dsh-plugin-market/icons/tavily-firecrawl.svg",
+      "author": "skillre",
+      "homepage": "https://github.com/skillre/dsh-plugin-tavily-firecrawl#readme",
+      "repository": {
+        "url": "https://github.com/skillre/dsh-plugin-tavily-firecrawl"
+      },
+      "metadata": {
+        "category": "integration",
+        "keywords": [
+          "deepseek-harness",
+          "dsh-plugin",
+          "cordis"
+        ],
+        "labels": [
+          "host"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794147895,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
       "name": "@skillre/dsh-plugin-skills-manager",
       "title": {
         "en": "Skills Manager",
