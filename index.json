@@ -59,6 +59,48 @@
   },
   "plugins": [
     {
+      "name": "@skillre/dsh-plugin-skills-manager",
+      "title": {
+        "en": "Skills Manager",
+        "zh": "技能管理"
+      },
+      "description": {
+        "en": "Discover, install, check and update DSH skills, with safe removal and restorable backups.",
+        "zh": "检索、安装、检查和更新 DSH 技能，支持安全删除与备份恢复。"
+      },
+      "icon": "https://skillre.github.io/dsh-plugin-market/icons/skills-manager.svg",
+      "author": "skillre",
+      "homepage": "https://github.com/skillre/dsh-plugin-skills-manager#readme",
+      "repository": {
+        "url": "https://github.com/skillre/dsh-plugin-skills-manager"
+      },
+      "metadata": {
+        "category": "productivity",
+        "keywords": [
+          "deepseek-harness",
+          "dsh-plugin",
+          "cordis"
+        ],
+        "labels": [
+          "host",
+          "client"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1794120366,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
       "name": "@skillre/dsh-plugin-sticky-wall",
       "title": {
         "en": "Sticky Wall",
