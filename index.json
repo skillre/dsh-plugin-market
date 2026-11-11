@@ -275,6 +275,54 @@
           }
         }
       ]
+    },
+    {
+      "name": "@skillre/dsh-plugin-agnes-studio",
+      "title": {
+        "en": "Agnes Studio",
+        "zh": "Agnes 工作室"
+      },
+      "description": {
+        "en": "Generate images and video with Agnes' free models, from a sidebar panel or the agnes_image / agnes_video session tools.",
+        "zh": "用 Agnes 免费模型生成图片和视频：侧栏看板里调参数出图出片，会话里还能直接调用 agnes_image 与 agnes_video 工具。"
+      },
+      "icon": "https://skillre.github.io/dsh-plugin-market/icons/agnes-studio.svg",
+      "author": "skillre",
+      "homepage": "https://github.com/skillre/dsh-plugin-agnes-studio#readme",
+      "repository": {
+        "url": "https://github.com/skillre/dsh-plugin-agnes-studio"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "deepseek-harness",
+          "dsh-plugin",
+          "cordis",
+          "agnes",
+          "image-generation",
+          "video-generation",
+          "生图",
+          "生视频",
+          "AI绘画"
+        ],
+        "labels": [
+          "host",
+          "client"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794373358,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
     }
   ]
 }
