@@ -178,8 +178,8 @@
         "zh": "便签墙"
       },
       "description": {
-        "en": "A free-canvas note board in the DSH sidebar: drag cards into place, tidy them, and write Markdown.",
-        "zh": "DSH 侧栏便签墙：随手记灵感与临时工作，拖动摆放、自动整理，正文支持 Markdown。"
+        "en": "A sticky-note wall in the DSH sidebar where every note is a real Markdown file you can drag, tidy and open anywhere.",
+        "zh": "DSH 侧栏便签墙：每张便签都是一个真正的 Markdown 文件，随手记录、拖动摆放、一键整理。"
       },
       "icon": "https://skillre.github.io/dsh-plugin-market/icons/sticky-wall.svg",
       "author": "skillre",
@@ -204,6 +204,26 @@
         "sortKeys": {}
       },
       "versions": [
+        {
+          "version": "0.8.2",
+          "publishTimestamp": 1794542501,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.8.0",
+          "publishTimestamp": 1794528554,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.7.0",
           "publishTimestamp": 1794358677,
@@ -277,6 +297,53 @@
       ]
     },
     {
+      "name": "@skillre/dsh-plugin-work-dashboard",
+      "title": {
+        "en": "Work Dashboard",
+        "zh": "工作看板"
+      },
+      "description": {
+        "en": "An operations board plus three bundled POC skills: read the ledger, export a form, submit colleague data as a Draft PR.",
+        "zh": "侧栏运营看板 + 三个随包安装的 POC 技能：读台账、导出收集表单、把组员数据提交成 Draft PR。"
+      },
+      "icon": "https://skillre.github.io/dsh-plugin-market/icons/work-dashboard.svg",
+      "author": "skillre",
+      "homepage": "https://github.com/skillre/dsh-plugin-work-dashboard#readme",
+      "repository": {
+        "url": "https://github.com/skillre/dsh-plugin-work-dashboard"
+      },
+      "metadata": {
+        "category": "data",
+        "keywords": [
+          "deepseek-harness",
+          "dsh-plugin",
+          "cordis",
+          "dashboard",
+          "work-dashboard",
+          "poc",
+          "工作看板",
+          "运营看板"
+        ],
+        "labels": [
+          "host",
+          "client"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.6.0",
+          "publishTimestamp": 1794556602,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
       "name": "@skillre/dsh-plugin-agnes-studio",
       "title": {
         "en": "Agnes Studio",
@@ -312,6 +379,76 @@
         "sortKeys": {}
       },
       "versions": [
+        {
+          "version": "0.7.0",
+          "publishTimestamp": 1794550486,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.6.0",
+          "publishTimestamp": 1794527268,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.5.1",
+          "publishTimestamp": 1794478191,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1794458196,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1794439797,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1794415180,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1794413142,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.2.0",
           "publishTimestamp": 1794406649,
